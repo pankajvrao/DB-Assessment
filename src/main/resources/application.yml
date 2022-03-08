@@ -1,0 +1,10 @@
+server:
+  port: 18080
+  
+  management:
+  endpoint:
+    shutdown:
+      enabled: true
+      enabled-by-default: false
+      info:
+        enabled: true
